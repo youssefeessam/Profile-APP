@@ -1,0 +1,610 @@
+@import url("bootstrap.min.css");
+@import url("fonts.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+@import url("animate.css");
+ 
+img {
+    width: 100%;
+}
+.clr {
+    clear: both;
+}
+/*  */
+body {
+    font-family: Poppins-Regular;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+}
+/*  */
+ul {
+    padding-left: 0;
+}
+
+.contaner{
+    width: 75%;
+    margin: auto;
+}
+
+.header  {
+padding: 20px ;
+
+}
+.navbar-expand-lg 
+{
+    padding: 15px 150px;
+    background-color: #fff;    
+
+}
+.navbar-expand-lg .navbar-brand
+{
+color:#007bff;
+font-family:Raleway-Medium  ;
+font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 17px;
+    font-family:Raleway-Medium  ;
+      font-weight: 300;
+    text-transform: capitalize;
+    padding-left: 13px;
+    padding-right: 13px;
+
+}
+.home {
+    height: 100vh;
+    background : linear-gradient(45deg, #377aff20 0%, #00d9ff0f 100% ) ,url(../img/background.jpg) ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    background-color: (45deg, #377aff 0%, #00d9ff 100%);
+    text-align: center;
+}
+.home h1{
+    font-family: Raleway-Medium;
+    color:  #fff; 
+}
+.home p{
+    font-family:Raleway-Regular ;
+    font-size: 18px;
+    color:  #fff; 
+}
+.home .btn .btn2{
+    background-color: #00c3da;
+    padding: 15px 30px;
+    color: #fff;
+    border: 2px solid transparent;
+    text-transform: capitalize;
+    transition: all .4s;
+    background-color: #377aff;
+    color: #fff;
+}
+.home .btn 
+{
+    padding-top: 35px;
+    font-family:Raleway-Medium  ;
+
+}
+/*sec1  */
+.sec1{
+    padding-top: 100px;
+    text-align: center;
+
+
+}
+
+.sec1 .secTitle h2{
+ font-family:Raleway-Regular ;
+ padding-top: 25px;
+ font-size: 25px;
+ color:#007bff;
+}
+.sec1 .secTitle p{
+
+    font-family:Raleway-Light ;
+    font-size: 17px;
+    padding-top: 10px;
+color: #00000077;
+padding-bottom: 100px;
+}
+.sec1 .secImg img
+{
+    transition: all .5s;
+}
+.sec1 .secImg :hover 
+{
+translate: 0px -10px 0px;
+}
+/* sec2 */
+.sec2
+{
+    background-color: #f6f5f5af;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+  
+}
+.sec2 .head-title h2{
+    color:#007bff;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Raleway-Medium;
+    font-size: 50px;
+    padding-top: 100px;
+}
+.sec2 .head-title p{
+    font-family:Raleway-Light ;
+    font-weight: 400;
+    font-size: 17px;
+    color: #0000008b;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+.sec2 .sec2Title
+{
+    text-align: center;
+    transition: all .5s;
+
+
+}
+.sec2 .sec2Title i
+{
+    font-size: 35px;
+    color:#007bff;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+.sec2 .sec2Title h2{
+
+    font-family:Raleway-Regular ;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.sec2 .sec2Title p{
+
+    font-family:Raleway-Regular ;
+    color: #0000008b;
+font-size: 16px;
+padding-bottom: 70px;
+}
+.sec2 .sec2Title:hover
+{
+    background-color: #fff;
+}
+
+/* sec3 */
+.sec3Title
+{
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.sec3
+{
+    background-color: #f6f5f5af;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+     position: relative; 
+
+  
+}
+ .sec3 .sec3Img{
+    /* position: relative
+    left: 0;
+    right: 0;
+top: -50px; */
+} 
+
+.sec3 .About .number
+{
+    color: #007bff;
+    font-size: 4rem;
+    position: relative;
+    font-family: Raleway-Medium;
+    padding:  0  80px;
+}
+
+
+.sec3 .About p
+{
+text-align: center;
+    font-size: 12px;
+    letter-spacing: .05em;
+    font-family:Raleway-Regular ;
+    line-height: 1;
+    color: #00000051;
+    padding:  6px  70px;
+   
+}
+
+
+
+/* staff */
+.staff
+{
+padding-top: 100px;
+}
+.staff .head-title h2{
+    color:#007bff;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Raleway-Medium;
+    font-size: 50px;
+}
+
+.staff .head-title p{
+
+    font-family:Raleway-Light ;
+    font-weight: 400;
+    font-size: 17px;
+    color: #0000008b;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+.staff .sectionCard .card 
+{
+    text-align: center;
+}
+.staff .sectionCard .card img{
+    border-radius: 50%;
+    width: 40%;
+
+    margin-inline-start: 100px;
+padding: 25px 0;
+}
+.staff .sectionCard .card h4{
+font-size: 18px;   
+font-family: Raleway-Medium;
+padding-bottom: 10px;
+}
+.staff .sectionCard .card h5{
+    font-size: 14px;
+    font-family:Raleway-Regular ;
+    color: #00000051; 
+    padding-bottom: 20px;
+}
+.staff .sectionCard .card  p{
+    font-size: 15px;
+    letter-spacing: .05em;
+    font-family:Raleway-Regular ;
+    line-height: 1;
+    color: #0000007d;
+    padding: 6px 0;
+}
+.staff .sectionCard .card .social i
+{
+
+padding: 15px 5px;   
+ color:#007bff;
+    font-size: 20px;
+    transition: all .5s;
+padding-bottom: 25px;
+}
+.staff .sectionCard .card .social i:hover
+{
+    color: #000;
+}
+.clr{
+    padding-bottom: 70px;
+}
+/*  pricing*/
+.pricing
+{
+    background-color: #f6f5f5af;
+    align-items: center;
+    justify-content: center;
+padding-top: 100px;
+padding-bottom: 80px;
+}
+.pricing .head-title h2{
+    color:#007bff;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Raleway-Medium;
+    font-size: 50px;
+}
+
+.pricing .head-title p{
+
+    font-family:Raleway-Light ;
+    font-weight: 400;
+    font-size: 17px;
+    color: #0000008b;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+.pricing .card .head-titl{
+
+    background-color: 
+    #fff;
+}
+.pricing .card{
+
+    border: none;
+}
+
+.pricing .card  h2{
+    text-align: center;
+color: #000000;
+font-size: 1.75rem;
+font-family:Raleway-Regular ;
+padding: 30px 0;
+}
+.pricing .card  .dis{
+    color:#007bff;
+    font-family:Raleway-Regular ;
+
+}
+.pricing .card  .catg{
+    font-family:Raleway-Regular ;
+font-size: 18px;
+color: #0000007d;
+text-align:center;
+
+}
+.pricing .card i{
+color: #71bc42;;
+margin-right: 35px;
+padding-top: 25px;
+}
+.pricing .card .pargh{
+    font-family: Raleway-Thin;
+    color: #0000007d;
+    font-size: 18px;
+    padding-left: 13px;
+
+}
+.pricing .card .btn{
+
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    padding: 8px 20px;
+margin: 50px 5px;
+text-transform: capitalize;
+transition: all .4s;
+}
+.pricing .card .btn:hover{
+    background-color: #212529d2;;
+}
+
+
+
+.pricing .card .btn2{
+
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.pricing .card .btn2:hover
+{
+    background-color: #005ec3e0;
+
+}
+/* whyUs */
+.whyUs
+{
+    padding-bottom: 80px;
+}
+
+
+.whyUs .title h2{
+    color: #000000;
+font-size: 1.75rem;
+font-family: Raleway-Medium;
+padding-top: 80px;
+} 
+
+.whyUs .title p{
+font-size: 18px;
+font-family:Raleway-Regular ;
+padding-top: 30px;
+padding-bottom: 30px;
+color: #00000070;
+}
+.whyUs .title i{
+
+    color: #007bff;
+    display: block;
+    padding-top: 25px;
+}
+.whyUs .title .pargh
+{
+    font-family: Raleway-Thin;
+    color: #0000007d;
+    font-size: 16px;
+    padding-left: 13px;
+
+}
+
+.img
+{
+    background-image: url(../img/delivery.jpg);
+    background-size: cover;
+    display: flex;
+    height: 500px;
+}
+/* blog */
+.blog
+{
+    padding-top: 80px;
+}
+
+
+.blog .title h2{
+
+    color:#007bff;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Raleway-Medium;
+    font-size: 50px;
+text-align: center;
+
+}
+.blog .art
+{
+    padding-top: 50px;
+}
+
+.blog .art .txtt p
+{
+
+    font-family:Raleway-Regular ;
+    color: #00000082;
+    font-size: 17px;
+}
+.blog .art .txtt ,.txtt
+{
+padding-bottom: 100px;
+}
+.blog .art .txtt h3
+{
+    font-size: 1.5rem;
+    font-family:Raleway-Regular ;
+    padding-bottom: 10px;
+
+}
+
+/* contactUS */
+.contactUS
+{
+    background-color: #f6f5f5af;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.contactUS .title h2
+{
+    color:#007bff;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Raleway-Medium;
+    font-size: 50px;
+text-align: center;
+padding-bottom: 50px;
+}
+.contanerr
+{
+    width: 65%;
+    margin: auto;
+}
+    .contactUS .form-control{
+
+        padding: 15px 7px;
+        font-family: Raleway-Medium;
+        margin-top: 15px;
+}
+.contactUS .labels .btn
+{
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 15px 140px;
+margin: 15px 5px;
+text-transform: capitalize;
+transition: all .4s;
+font-family: Raleway-Medium;
+
+}
+
+.contactUS .labels .btn:hover
+{
+    background-color: #005ec3e0;
+}
+
+/* fotter */
+.social
+{
+    padding-top: 25px;
+}
+ .ftitle
+ {
+    font-family: Raleway-Medium;
+padding: 50px 0; }
+.about{
+    font-family: Raleway-Medium;
+text-align: left;
+}
+.about h5{
+    font-size: 18px;
+    padding: 25px 0;
+}
+.about p{
+font-size: 18px;
+}
+
+.about .about2 h5
+{
+padding-bottom: 25px;
+}
+.about .about2  li{
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.textt
+{
+    color: rgba(255, 255, 255, 0.5);
+}
+.textt:hover
+{
+    color: #fff;
+    transition: all .4s;
+
+}
+
+
+
+
+.text{
+    color: #fff;
+    font-family: Raleway-Medium;
+
+}
+#sec1
+#service
+#aboutUs
+#whyUs
+#blog
+#contactUS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
